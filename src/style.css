@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button:hover {
+  background: hsl(176, 68%, 64%);
+}
+
+.list-item:hover {
+  font-weight: bold;
+}

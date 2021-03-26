@@ -96,6 +96,7 @@ module.exports = {
       "gradient-to-tl":
         "linear-gradient(to top left, var(--tw-gradient-stops))",
       "waves-mobile": "url('./images/bg-curvy-mobile.svg')",
+      "waves-desktop": "url('./images/bg-curvy-desktop.svg')",
     },
     backgroundOpacity: (theme) => theme("opacity"),
     backgroundPosition: {
@@ -488,6 +489,7 @@ module.exports = {
       min: "min-content",
       max: "max-content",
       prose: "65ch",
+      "800px": "800px",
       ...breakpoints(theme("screens")),
     }),
     minHeight: {
@@ -736,6 +738,8 @@ module.exports = {
       screen: "100vw",
       min: "min-content",
       max: "max-content",
+      "500px": "31.25rem",
+      "600px": "37.5rem",
     }),
     zIndex: {
       auto: "auto",
@@ -780,7 +784,7 @@ module.exports = {
       "hover",
       "focus",
     ],
-    backgroundImage: ["responsive"],
+    backgroundImage: ["responsive", "hover"],
     backgroundOpacity: [
       "responsive",
       "dark",

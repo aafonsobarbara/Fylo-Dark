@@ -4467,6 +4467,54 @@ video {
   background-image: url('./images/bg-curvy-mobile.svg');
 }
 
+.bg-waves-desktop {
+  background-image: url('./images/bg-curvy-desktop.svg');
+}
+
+.hover\:bg-none:hover {
+  background-image: none;
+}
+
+.hover\:bg-gradient-to-t:hover {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-tr:hover {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-r:hover {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-br:hover {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-b:hover {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-bl:hover {
+  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-l:hover {
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-tl:hover {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.hover\:bg-waves-mobile:hover {
+  background-image: url('./images/bg-curvy-mobile.svg');
+}
+
+.hover\:bg-waves-desktop:hover {
+  background-image: url('./images/bg-curvy-desktop.svg');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -14727,6 +14775,10 @@ video {
 
 .max-w-prose {
   max-width: 65ch;
+}
+
+.max-w-800px {
+  max-width: 800px;
 }
 
 .max-w-screen-sm {
@@ -28531,6 +28583,14 @@ video {
   width: max-content;
 }
 
+.w-500px {
+  width: 31.25rem;
+}
+
+.w-600px {
+  width: 37.5rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -32613,6 +32673,14 @@ video {
           animation: bounce 1s infinite;
 }
 
+button:hover {
+  background: hsl(176, 68%, 64%);
+}
+
+.list-item:hover {
+  font-weight: bold;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -36528,6 +36596,54 @@ video {
 
   .sm\:bg-waves-mobile {
     background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
+  .sm\:bg-waves-desktop {
+    background-image: url('./images/bg-curvy-desktop.svg');
+  }
+
+  .sm\:hover\:bg-none:hover {
+    background-image: none;
+  }
+
+  .sm\:hover\:bg-gradient-to-t:hover {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-r:hover {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-br:hover {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-bl:hover {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-l:hover {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-tl:hover {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-waves-mobile:hover {
+    background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
+  .sm\:hover\:bg-waves-desktop:hover {
+    background-image: url('./images/bg-curvy-desktop.svg');
   }
 
   .sm\:from-transparent {
@@ -46790,6 +46906,10 @@ video {
 
   .sm\:max-w-prose {
     max-width: 65ch;
+  }
+
+  .sm\:max-w-800px {
+    max-width: 800px;
   }
 
   .sm\:max-w-screen-sm {
@@ -60581,6 +60701,14 @@ video {
     width: max-content;
   }
 
+  .sm\:w-500px {
+    width: 31.25rem;
+  }
+
+  .sm\:w-600px {
+    width: 37.5rem;
+  }
+
   .sm\:z-0 {
     z-index: 0;
   }
@@ -68513,6 +68641,54 @@ video {
 
   .md\:bg-waves-mobile {
     background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
+  .md\:bg-waves-desktop {
+    background-image: url('./images/bg-curvy-desktop.svg');
+  }
+
+  .md\:hover\:bg-none:hover {
+    background-image: none;
+  }
+
+  .md\:hover\:bg-gradient-to-t:hover {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-r:hover {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-br:hover {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-bl:hover {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-l:hover {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-tl:hover {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-waves-mobile:hover {
+    background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
+  .md\:hover\:bg-waves-desktop:hover {
+    background-image: url('./images/bg-curvy-desktop.svg');
   }
 
   .md\:from-transparent {
@@ -78775,6 +78951,10 @@ video {
 
   .md\:max-w-prose {
     max-width: 65ch;
+  }
+
+  .md\:max-w-800px {
+    max-width: 800px;
   }
 
   .md\:max-w-screen-sm {
@@ -92566,6 +92746,14 @@ video {
     width: max-content;
   }
 
+  .md\:w-500px {
+    width: 31.25rem;
+  }
+
+  .md\:w-600px {
+    width: 37.5rem;
+  }
+
   .md\:z-0 {
     z-index: 0;
   }
@@ -100498,6 +100686,54 @@ video {
 
   .lg\:bg-waves-mobile {
     background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
+  .lg\:bg-waves-desktop {
+    background-image: url('./images/bg-curvy-desktop.svg');
+  }
+
+  .lg\:hover\:bg-none:hover {
+    background-image: none;
+  }
+
+  .lg\:hover\:bg-gradient-to-t:hover {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-r:hover {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-br:hover {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-bl:hover {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-l:hover {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-tl:hover {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-waves-mobile:hover {
+    background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
+  .lg\:hover\:bg-waves-desktop:hover {
+    background-image: url('./images/bg-curvy-desktop.svg');
   }
 
   .lg\:from-transparent {
@@ -110760,6 +110996,10 @@ video {
 
   .lg\:max-w-prose {
     max-width: 65ch;
+  }
+
+  .lg\:max-w-800px {
+    max-width: 800px;
   }
 
   .lg\:max-w-screen-sm {
@@ -124551,6 +124791,14 @@ video {
     width: max-content;
   }
 
+  .lg\:w-500px {
+    width: 31.25rem;
+  }
+
+  .lg\:w-600px {
+    width: 37.5rem;
+  }
+
   .lg\:z-0 {
     z-index: 0;
   }
@@ -132483,6 +132731,54 @@ video {
 
   .xl\:bg-waves-mobile {
     background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
+  .xl\:bg-waves-desktop {
+    background-image: url('./images/bg-curvy-desktop.svg');
+  }
+
+  .xl\:hover\:bg-none:hover {
+    background-image: none;
+  }
+
+  .xl\:hover\:bg-gradient-to-t:hover {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-r:hover {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-br:hover {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-bl:hover {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-l:hover {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-tl:hover {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-waves-mobile:hover {
+    background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
+  .xl\:hover\:bg-waves-desktop:hover {
+    background-image: url('./images/bg-curvy-desktop.svg');
   }
 
   .xl\:from-transparent {
@@ -142745,6 +143041,10 @@ video {
 
   .xl\:max-w-prose {
     max-width: 65ch;
+  }
+
+  .xl\:max-w-800px {
+    max-width: 800px;
   }
 
   .xl\:max-w-screen-sm {
@@ -156536,6 +156836,14 @@ video {
     width: max-content;
   }
 
+  .xl\:w-500px {
+    width: 31.25rem;
+  }
+
+  .xl\:w-600px {
+    width: 37.5rem;
+  }
+
   .xl\:z-0 {
     z-index: 0;
   }
@@ -164468,6 +164776,54 @@ video {
 
   .\32xl\:bg-waves-mobile {
     background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
+  .\32xl\:bg-waves-desktop {
+    background-image: url('./images/bg-curvy-desktop.svg');
+  }
+
+  .\32xl\:hover\:bg-none:hover {
+    background-image: none;
+  }
+
+  .\32xl\:hover\:bg-gradient-to-t:hover {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-r:hover {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-br:hover {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-bl:hover {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-l:hover {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-tl:hover {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-waves-mobile:hover {
+    background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
+  .\32xl\:hover\:bg-waves-desktop:hover {
+    background-image: url('./images/bg-curvy-desktop.svg');
   }
 
   .\32xl\:from-transparent {
@@ -174730,6 +175086,10 @@ video {
 
   .\32xl\:max-w-prose {
     max-width: 65ch;
+  }
+
+  .\32xl\:max-w-800px {
+    max-width: 800px;
   }
 
   .\32xl\:max-w-screen-sm {
@@ -188519,6 +188879,14 @@ video {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .\32xl\:w-500px {
+    width: 31.25rem;
+  }
+
+  .\32xl\:w-600px {
+    width: 37.5rem;
   }
 
   .\32xl\:z-0 {
